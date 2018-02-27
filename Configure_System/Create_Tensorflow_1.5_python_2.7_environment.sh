@@ -21,7 +21,8 @@ pip install -I -r requirements.txt
 # Uninstall the tensorflow from requirements, install specific optimized
 # version
 pip uninstall -y tensorflow
-pip install --upgrade https://github.com/mind/wheels/releases/download/tf1.5-gpu/tensorflow-1.5.0-cp27-cp27mu-linux_x86_64.whl
+pip install --upgrade tensorflow
+pip install --upgrade tensorflow-gpu
 
 
 
