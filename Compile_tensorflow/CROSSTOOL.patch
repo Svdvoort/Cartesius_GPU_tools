@@ -1,0 +1,12 @@
+--- CROSSTOOL_original.tpl	2018-11-18 16:22:04.712518254 +0100
++++ CROSSTOOL.tpl	2018-11-18 16:17:33.978844716 +0100
+@@ -37,6 +37,9 @@
+   target_cpu: "local"
+   target_system_name: "local"
+   toolchain_identifier: "local_linux"
++  cxx_builtin_include_directory: "/home/vandervo/packages/gcc/7.3.0/lib/gcc"
++  cxx_builtin_include_directory: "/home/vandervo/packages/gcc/7.3.0/local/include"
++  cxx_builtin_include_directory: "/home/vandervo/packages/gcc/7.3.0/include"
+ 
+   feature {
+     name: "c++11"
